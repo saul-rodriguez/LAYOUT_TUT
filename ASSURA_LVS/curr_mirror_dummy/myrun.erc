@@ -1,0 +1,26 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'curr_mirror_dummy layout TUTORIAL':
+  info: Floating label discarded:  "D" at (24.960, 21.440).
+  info: Floating label discarded:  "D" at (33.970, 21.440).
+  info: Floating label discarded:  "D" at (53.880, 21.440).
+  info: Floating label discarded:  "D" at (62.890, 21.440).
+  info: Floating label discarded:  "D" at (15.920, 21.440).
+  info: Floating label discarded:  "S" at (29.480, 21.440).
+  info: Floating label discarded:  "D" at (44.840, 21.440).
+  info: Floating label discarded:  "S" at (58.400, 21.440).
+  info: Floating label discarded:  "S" at (11.430, 21.440).
+  info: Floating label discarded:  "S" at (20.440, 21.440).
+  info: Floating label discarded:  "S" at (40.350, 21.440).
+  info: Floating label discarded:  "S" at (49.360, 21.440).
+  info: Assign pin label "vssa" at (0.630, 26.710) to layer `m2_resistive'.
+  info: Assign pin label "out" at (0.630, 28.040) to layer `m2_resistive'.
+  info: Assign pin label "bias" at (39.910, 29.860) to layer `m2_resistive'.
+  info: Assign pin label "vssa" at (0.630, 26.710) to layer `m2_resistive'.
+  info: Assign pin label "out" at (0.630, 28.040) to layer `m2_resistive'.
+  info: Assign pin label "bias" at (39.910, 29.860) to layer `m2_resistive'.
+  info: Assign pin label "vsub" at (5.560, 32.710) to layer `substrate_text'.
+
+***** End of Label Report *****
+

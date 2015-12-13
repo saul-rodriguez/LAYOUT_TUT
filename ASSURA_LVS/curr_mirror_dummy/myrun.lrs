@@ -1,0 +1,35 @@
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.5-64b:IC6.1.5-64b.500.17 04/19/2015 21:27 (sjfql463) $
+sub-version 4.1_USR4_HF23, integ signature 2015-04-17-1113
+run on localhost.localdomain at Sun Dec 13 00:55:45 2015
+
+Schematic                           | Layout                           | Status
+---------------------------------------------------------------------------------
+curr_mirror_dummy schematic TUTORIAL| curr_mirror_dummy layout TUTORIAL| matched
+
+Schematic and Layout Match
+
+Schematic:
+  Library:TUTORIAL
+  Cell   :curr_mirror_dummy
+  View   :schematic
+
+Layout:
+  Library:TUTORIAL
+  Cell   :curr_mirror_dummy
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     0 cells have 0 Net mismatches
+     0 cells have 0 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

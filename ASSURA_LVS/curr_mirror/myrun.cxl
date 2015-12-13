@@ -1,0 +1,19 @@
+C subc(Generic) subc(Generic)
+N SUBCON SUBCON
+N sub sub
+
+C nfet(Generic) nfet(Generic)
+N D D
+N G G
+N S S
+N B B
+
+C "curr_mirror schematic TUTORIAL" "curr_mirror layout TUTORIAL"
+N vssa vssa
+N vsub vsub
+N bias bias
+N out out
+I TN1 avD36_1
+I TN0 avD38_1
+I I0 avD150_1
+

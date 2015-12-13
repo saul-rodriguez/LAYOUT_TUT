@@ -1,0 +1,11 @@
+*percRulesFile: 
+*percSourceGetFromViewer: 1
+*percPercInput: SOURCENETLIST
+*percReportMaximumAll: 1
+*percReportOptions: NO_NET_TYPE
+*percEnvVars: {KV 2 Runset}
+*cmnTemplate_RN: CALIBRE/%l/PERC/SCHEMA
+*cmnPreTrigger: $AMS_DIR/programs/bin/cdl2calibre %s
+*cmnShowOptions: 1
+*cmnIncludeRulesFilesAfterMain: 1
+*cmnRunHier: 0

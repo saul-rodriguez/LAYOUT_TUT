@@ -1,0 +1,25 @@
+
+Devices filtered by filter commands : 
+
+*******************************************************************************
+Schematic Cell curr_mirror_dummy schematic TUTORIAL
+*******************************************************************************
+
+Option  DeviceTyp  Device
+------  ---------  ------
+     X    Generic  TN3
+     X    Generic  TN2
+
+2 devices filtered
+
+*******************************************************************************
+Layout Cell curr_mirror_dummy layout TUTORIAL
+*******************************************************************************
+
+Option  DeviceTyp  Device
+------  ---------  ------
+     X    Generic  avD36_1
+     X    Generic  avD36_2
+
+2 devices filtered
+
