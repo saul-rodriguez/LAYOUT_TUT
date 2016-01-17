@@ -14,7 +14,7 @@ vuiDRCFormTable = '(
 	format  "DFII"
 	vui2dbxor  nil
 	runName  "myrun"
-	runDir  "ASSURA_DRC/curr_mirror_dummy"
+	runDir  "ASSURA_DRC/diff_par_dummy"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "h18a6am"
@@ -30,7 +30,7 @@ vuiDRCFormTable = '(
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
 	library  "TUTORIAL"
-	cell  "curr_mirror_dummy"
+	cell  "diff_par_dummy"
 	view  "layout"
 	saveExtracted  nil
 	extractedView  "drc_extracted"

@@ -1,3 +1,3 @@
 #!/bin/sh -f
-/pkg/Cadence/installs/ASSURA41/tools/assura/bin/assura /home/saul/projects/LAYOUT_TUT/ASSURA_LVS/curr_mirror_dummy/myrun.rsf -cdslib /home/saul/projects/LAYOUT_TUT/cds.lib -gui
+/pkg/Cadence/installs/ASSURA41/tools/assura/bin/assura /home/saul/projects/LAYOUT_TUT/ASSURA_LVS/diff_par_dummy/myrun.rsf -cdslib /home/saul/projects/LAYOUT_TUT/cds.lib -gui
 exit $?

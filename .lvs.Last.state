@@ -14,7 +14,7 @@ vuiLVSFormTable = '(
 	schematicSource  "DFII"
 	layoutSource  "DFII"
 	runName  "myrun"
-	runDir  "ASSURA_LVS/curr_mirror_dummy"
+	runDir  "ASSURA_LVS/diff_par_dummy"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "h18a6am"
@@ -32,12 +32,12 @@ vuiLVSFormTable = '(
 	avCompareView  nil
 	additionalFunctionsButton  nil
 	schLibrary  "TUTORIAL"
-	schCell  "curr_mirror_dummy"
+	schCell  "diff_par_dummy"
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
 	layLibrary  "TUTORIAL"
-	layCell  "curr_mirror_dummy"
+	layCell  "diff_par_dummy"
 	layView  "layout"
 	layUseExistingNL  nil
 	extractButton  nil

@@ -1,13 +1,13 @@
 \o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 05/06/2013 23:35 (cat91amd) $
 \o Sub version:		sub-version  s014 
-\o Arguments:		-mpssession virtuoso4291 -mpshost localhost.localdomain 
+\o Arguments:		-mpssession virtuoso3452 -mpshost localhost.localdomain 
 \o Working Directory:	localhost.localdomain:/home/saul/projects/LAYOUT_TUT
 \o 64-bit offsets
 \o Qt version: 		4.5.3
 \o Log file is "/home/saul/projects/LAYOUT_TUT/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1952 28 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
 \o changeWorkingDir("/home/saul/projects/LAYOUT_TUT") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
@@ -24,127 +24,23 @@
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2072 263 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a cdsLibManager->FileNewLibButton->value = t
-\a NewLibShell->QLineEdit2->value = ""
-\a nrSetWindowVisibility(NewLibShell->subDialog "show")
-\a nrSetWindowVisibility(NewLibShell "show")
-\a NewLibShell->QLineEdit2->value = "/home/saul/projects/LAYOUT_TUT/"
-\a nrSetCurrentWindow(NewLibShell)
-\a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrResizeWindow(NewLibShell->subDialog list(0 0 414 254))
-\a nrResizeWindow(NewLibShell list(2119 281 462 492))
-\a NewLibShell->newLibNameText->value = "TUTORIAL"
-\a nrDialogAccept(NewLibShell)
-\a NewLibShell->subDialog->value = '("/home/saul/projects/LAYOUT_TUT" "/home/saul/projects/LAYOUT_TUT/")
-\a NewLibShell->newLibOKButton->value = t
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a NewLibShell->newLibNameText->value = "TUTORIAL"
-\o Created new library "TUTORIAL" at /home/saul/projects/LAYOUT_TUT/TUTORIAL.
-\a nrSetCurrentWindow(cdsLibManager)
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a nrResizeWindow(workingDialogForm list(2219 399 282 129))
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->FileNewCVButton->value = t
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = "TUTORIALamp"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 1294 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 1294 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->cellListBox->value = "amp"
-\a cdsLibManager->cellLineEdit->value = "amp"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "TUTORIALcu"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -1946 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 1294 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -1946 741 627))
 \a cdsLibManager->libLineEdit->value = ""
 \w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
 \w LIB TECH_H18A6 from the same file (defined earlier.)
@@ -156,119 +52,116 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
 \w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -1946 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -1946 741 627))
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a nrResizeWindow(cdsLibManager list(1980 -866 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 -1946 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1980 1294 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
+\w LIB TECH_H18A6 from the same file (defined earlier.)
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
+\a cdsLibManager->libListBox->value = "TUTORIAL"
+\a cdsLibManager->libLineEdit->value = "TUTORIAL"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
+\w LIB TECH_H18A6 from the same file (defined earlier.)
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
+\a cdsLibManager->libListBox->value = "TUTORIAL"
+\a cdsLibManager->libLineEdit->value = "TUTORIAL"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "curr_mirror"
-\a lmgrLogShowPopup("mainListPopup1" 23 19 2 "curr_mirror")
-\a cdsLibManager->cellLineEdit->value = "curr_mirror"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "amp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "curr_mirror"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 30 36 2 "curr_mirror_dummy")
 \a cdsLibManager->copySimpleButton->value = t
 \a basicCopyForm->CategoryCellsEdit->value = "*"
 \a basicCopyForm->CellsSkipLibraries->value = t
@@ -279,30 +172,28 @@
 \a basicCopyForm->CopyFromLibrary->value = "A_CELLS_4AM"
 \a basicCopyForm->CopyToLibrary->value = "A_CELLS_4AM"
 \a basicCopyForm->CopyFromLibrary->value = "TUTORIAL"
-\a basicCopyForm->CopyFromCell->value = "curr_mirror"
+\a basicCopyForm->CopyFromCell->value = "curr_mirror_dummy"
 \a basicCopyForm->CopyToLibrary->value = "TUTORIAL"
-\a basicCopyForm->CopyToCell->value = "curr_mirror"
-\a basicCopyForm->CellsViewsToCopy->value = "constraint layout physConfig schematic symbol"
+\a basicCopyForm->CopyToCell->value = "curr_mirror_dummy"
+\a basicCopyForm->CellsViewsToCopy->value = "constraint layout schematic symbol"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = ""
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "A_CELLS_4AM A_CELLS_5AM A_CELLS_6AM A_CELLS_7AM BORDERS CORELIB CORELIB_HV CORELIB_HVT CORELIB_SHVT GATES GATES_ANA IOLIB_4AM IOLIB_5AM IOLIB_6AM IOLIB_7AM IOLIB_HV_4AM IOLIB_HV_5AM IOLIB_HV_6AM IOLIB_HV_7AM LEADFRAMES PACKAGES TECH_H18A4 TECH_H18A6 US_8ths ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib cmhv7sf connectLib dmsLib esd7hv functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory"
 \a basicCopyForm->ViewsSkipLibrariesEdit->value = "A_CELLS_4AM A_CELLS_5AM A_CELLS_6AM A_CELLS_7AM BORDERS CORELIB CORELIB_HV CORELIB_HVT CORELIB_SHVT GATES GATES_ANA IOLIB_4AM IOLIB_5AM IOLIB_6AM IOLIB_7AM IOLIB_HV_4AM IOLIB_HV_5AM IOLIB_HV_6AM IOLIB_HV_7AM LEADFRAMES PACKAGES TECH_H18A4 TECH_H18A6 US_8ths ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib cmhv7sf connectLib dmsLib esd7hv functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory"
 \a nrSetWindowVisibility(basicCopyForm "show")
 \a nrSetCurrentWindow(basicCopyForm)
-\a nrResizeWindow(basicCopyForm list(2128 236 444 618))
-\a basicCopyForm->CopyToCell->value = "curr_mirror_dummy"
+\a nrResizeWindow(basicCopyForm list(2118 226 444 618))
+\a basicCopyForm->CopyToCell->value = "curr_mirror_dummy2"
 \a nrDialogAccept(basicCopyForm)
 \a basicCopyForm->OK->value = t
 \o Beginning simple copy to library "TUTORIAL".
 \o Processing files to be copied...
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(workingDialogForm)
-\a basicCopyForm->CopyToCell->value = "curr_mirror_dummy"
+\a basicCopyForm->CopyToCell->value = "curr_mirror_dummy2"
 \a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(basicCopyForm)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2223 324 255 129))
+\a nrResizeWindow(workingDialogForm list(2213 379 255 129))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
@@ -319,81 +210,30 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "A_CELLS_4AM A_CELLS_5AM A_CELLS_6AM A_CELLS_7AM BORDERS CORELIB CORELIB_HV CORELIB_HVT CORELIB_SHVT GATES GATES_ANA IOLIB_4AM IOLIB_5AM IOLIB_6AM IOLIB_7AM IOLIB_HV_4AM IOLIB_HV_5AM IOLIB_HV_6AM IOLIB_HV_7AM LEADFRAMES PACKAGES TECH_H18A4 TECH_H18A6 US_8ths ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib cmhv7sf connectLib dmsLib esd7hv functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "constraint"
-\a cdsLibManager->viewLineEdit->value = "constraint"
-\a lmgrLogShowPopup("mainListPopup2" 45 8 2 "constraint")
-\a cdsLibManager->editRenameButton->value = t
-\a basicRenameForm->basicRenameFromEdit->value = "constraint"
-\a nrSetWindowVisibility(basicRenameForm "show")
-\a basicRenameForm->basicRenameToEdit->value = "constraint"
-\a nrSetCurrentWindow(basicRenameForm)
-\a nrResizeWindow(basicRenameForm list(2179 372 343 180))
-\a basicRenameForm->OK->value = t
-\o View file /home/saul/projects/LAYOUT_TUT/TUTORIAL/curr_mirror/constraint/prop.cfg is locked by saul at host localhost.localdomain
-\o View file /home/saul/projects/LAYOUT_TUT/TUTORIAL/curr_mirror/constraint/hierDesign.oa is locked by saul at host localhost.localdomain
-\o ERROR (CLM-225): View TUTORIAL/curr_mirror/constraint has files that are locked or are checked out.\nCheck the "Messages" window for a list of which files are causing problem\nRename failed.
-\a nrSetWindowVisibility(errorDialog "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(errorDialog)
-\a nrResizeWindow(errorDialog list(2286 365 454 124))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "constraint"
-\a cdsLibManager->viewLineEdit->value = "constraint"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a lmgrLogShowPopup("mainListPopup2" 42 9 2 "constraint")
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 39 26 2 "layout")
 \a cdsLibManager->editDeleteButton->value = t
 \a deleteForm->deleteBothRadioButton->value = t
 \a deleteForm->deleteFilterEdit->value = "*"
 \a deleteForm->notDeleteFilterEdit->value = "*"
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2037 290 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2199 369 300 275))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting view "constraint" from cell "curr_mirror_dummy" in library "TUTORIAL".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cellview 'TUTORIAL/curr_mirror_dummy/constraint'.
-\o Deletion of 1 view done.
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(2230 389 250 129))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a lmgrLogShowPopup("mainListPopup2" 40 4 2 "layout")
-\a cdsLibManager->editDeleteButton->value = t
 \a nrSetWindowVisibility(deleteForm "show")
 \a nrSetCurrentWindow(deleteForm)
 \a nrResizeWindow(deleteForm list(2027 280 627 425))
@@ -403,16 +243,16 @@
 \a nrSetCurrentWindow(mcMBXDLG)
 \a nrResizeWindow(mcMBXDLG list(2189 359 300 216))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting view "layout" from cell "curr_mirror_dummy" in library "TUTORIAL".
+\o Deleting view "layout" from cell "curr_mirror_dummy2" in library "TUTORIAL".
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(deleteForm)
 \a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cellview 'TUTORIAL/curr_mirror_dummy/layout'.
+\o Deleted cellview 'TUTORIAL/curr_mirror_dummy2/layout'.
 \o Deletion of 1 view done.
 \a nrSetCurrentWindow(workingDialogForm)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(2225 389 250 129))
+\a nrResizeWindow(workingDialogForm list(2220 379 250 129))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
@@ -429,11 +269,11 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "physConfig"
-\a cdsLibManager->viewLineEdit->value = "physConfig"
-\a lmgrLogShowPopup("mainListPopup2" 27 6 2 "physConfig")
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewListBox->value = "constraint"
+\a cdsLibManager->viewLineEdit->value = "constraint"
+\a lmgrLogShowPopup("mainListPopup2" 48 0 2 "constraint")
 \a cdsLibManager->editDeleteButton->value = t
 \a nrSetWindowVisibility(deleteForm "show")
 \a nrSetCurrentWindow(deleteForm)
@@ -442,18 +282,18 @@
 \o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
 \a nrSetWindowVisibility(mcMBXDLG "show")
 \a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2179 349 300 280))
+\a nrResizeWindow(mcMBXDLG list(2179 349 300 275))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting view "physConfig" from cell "curr_mirror_dummy" in library "TUTORIAL".
+\o Deleting view "constraint" from cell "curr_mirror_dummy2" in library "TUTORIAL".
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(deleteForm)
 \a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cellview 'TUTORIAL/curr_mirror_dummy/physConfig'.
+\o Deleted cellview 'TUTORIAL/curr_mirror_dummy2/constraint'.
 \o Deletion of 1 view done.
 \a nrSetCurrentWindow(workingDialogForm)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(2225 389 250 129))
+\a nrResizeWindow(workingDialogForm list(2215 379 250 129))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
@@ -470,8 +310,27 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "amp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
@@ -494,16 +353,26 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrResizeWindow(cdsLibManager list(1980 1294 741 627))
-\a nrResizeWindow(cdsLibManager list(1980 214 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
@@ -522,60 +391,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -600,8 +417,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -626,8 +443,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -652,14 +469,25 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
@@ -678,148 +506,160 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "physConfig"
-\a cdsLibManager->viewLineEdit->value = "physConfig"
-\a lmgrLogShowPopup("mainListPopup2" 56 37 2 "physConfig")
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
+\w LIB TECH_H18A6 from the same file (defined earlier.)
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
+\a cdsLibManager->libListBox->value = "TUTORIAL"
+\a cdsLibManager->libLineEdit->value = "TUTORIAL"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "zviadragSCRATCH2artch666632"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 95 48 2 "curr_mirror_dummy2")
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsViewsToCopy->value = ""
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromCell->value = ""
+\a basicCopyForm->CopyToCell->value = ""
+\a basicCopyForm->CopyFromLibrary->value = ""
+\a basicCopyForm->CopyToLibrary->value = ""
+\a basicCopyForm->CopyFromLibrary->value = "A_CELLS_4AM"
+\a basicCopyForm->CopyToLibrary->value = "A_CELLS_4AM"
+\a basicCopyForm->CopyFromLibrary->value = "TUTORIAL"
+\a basicCopyForm->CopyFromCell->value = "curr_mirror_dummy2"
+\a basicCopyForm->CopyToLibrary->value = "TUTORIAL"
+\a basicCopyForm->CopyToCell->value = "curr_mirror_dummy2"
+\a basicCopyForm->CellsViewsToCopy->value = "constraint layout physConfig schematic symbol"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "A_CELLS_4AM A_CELLS_5AM A_CELLS_6AM A_CELLS_7AM BORDERS CORELIB CORELIB_HV CORELIB_HVT CORELIB_SHVT GATES GATES_ANA IOLIB_4AM IOLIB_5AM IOLIB_6AM IOLIB_7AM IOLIB_HV_4AM IOLIB_HV_5AM IOLIB_HV_6AM IOLIB_HV_7AM LEADFRAMES PACKAGES TECH_H18A4 TECH_H18A6 US_8ths ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib cmhv7sf connectLib dmsLib esd7hv functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "A_CELLS_4AM A_CELLS_5AM A_CELLS_6AM A_CELLS_7AM BORDERS CORELIB CORELIB_HV CORELIB_HVT CORELIB_SHVT GATES GATES_ANA IOLIB_4AM IOLIB_5AM IOLIB_6AM IOLIB_7AM IOLIB_HV_4AM IOLIB_HV_5AM IOLIB_HV_6AM IOLIB_HV_7AM LEADFRAMES PACKAGES TECH_H18A4 TECH_H18A6 US_8ths ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib cmhv7sf connectLib dmsLib esd7hv functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(2108 216 444 618))
+\a basicCopyForm->CopyToCell->value = "diff_par_dummy"
+\a nrDialogAccept(basicCopyForm)
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "TUTORIAL".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a basicCopyForm->CopyToCell->value = "diff_par_dummy"
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(2213 314 255 129))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
+\w LIB TECH_H18A6 from the same file (defined earlier.)
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
+\a cdsLibManager->libListBox->value = "TUTORIAL"
+\a cdsLibManager->libLineEdit->value = "TUTORIAL"
+\a cdsLibManager->cellListBox->value = "curr_mirror_dummy2"
+\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "A_CELLS_4AM A_CELLS_5AM A_CELLS_6AM A_CELLS_7AM BORDERS CORELIB CORELIB_HV CORELIB_HVT CORELIB_SHVT GATES GATES_ANA IOLIB_4AM IOLIB_5AM IOLIB_6AM IOLIB_7AM IOLIB_HV_4AM IOLIB_HV_5AM IOLIB_HV_6AM IOLIB_HV_7AM LEADFRAMES PACKAGES TECH_H18A4 TECH_H18A6 US_8ths ahdlLib ambit analogLib avTech basic bmslib cdsDefTechLib cds_amsfunctions cds_assertions cds_inhconn cds_spicelib cmhv7sf connectLib dmsLib esd7hv functional ieee ncinternal ncmodels ncutils sbaLib sdilib std synopsys vital_memory"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 51 23 2 "layout")
 \a cdsLibManager->editDeleteButton->value = t
 \a nrSetWindowVisibility(deleteForm "show")
 \a nrSetCurrentWindow(deleteForm)
@@ -828,18 +668,18 @@
 \o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
 \a nrSetWindowVisibility(mcMBXDLG "show")
 \a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2169 339 300 280))
+\a nrResizeWindow(mcMBXDLG list(2169 339 300 216))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting view "physConfig" from cell "curr_mirror_dummy" in library "TUTORIAL".
+\o Deleting view "layout" from cell "diff_par_dummy" in library "TUTORIAL".
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(deleteForm)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cellview 'TUTORIAL/curr_mirror_dummy/physConfig'.
+\o Deleted cellview 'TUTORIAL/diff_par_dummy/layout'.
 \o Deletion of 1 view done.
+\a nrSetCurrentWindow(workingDialogForm)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(2225 389 250 129))
+\a nrResizeWindow(workingDialogForm list(2220 379 250 129))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
@@ -856,11 +696,11 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "constraint"
 \a cdsLibManager->viewLineEdit->value = "constraint"
-\a lmgrLogShowPopup("mainListPopup2" 48 3 2 "constraint")
+\a lmgrLogShowPopup("mainListPopup2" 46 5 2 "constraint")
 \a cdsLibManager->editDeleteButton->value = t
 \a nrSetWindowVisibility(deleteForm "show")
 \a nrSetCurrentWindow(deleteForm)
@@ -871,16 +711,16 @@
 \a nrSetCurrentWindow(mcMBXDLG)
 \a nrResizeWindow(mcMBXDLG list(2159 329 300 275))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting view "constraint" from cell "curr_mirror_dummy" in library "TUTORIAL".
+\o Deleting view "constraint" from cell "diff_par_dummy" in library "TUTORIAL".
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(deleteForm)
 \a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cellview 'TUTORIAL/curr_mirror_dummy/constraint'.
+\o Deleted cellview 'TUTORIAL/diff_par_dummy/constraint'.
 \o Deletion of 1 view done.
 \a nrSetCurrentWindow(workingDialogForm)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(2225 389 250 129))
+\a nrResizeWindow(workingDialogForm list(2215 379 250 129))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
@@ -897,11 +737,11 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a lmgrLogShowPopup("mainListPopup2" 47 2 2 "layout")
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
+\a cdsLibManager->viewListBox->value = "physConfig"
+\a cdsLibManager->viewLineEdit->value = "physConfig"
+\a lmgrLogShowPopup("mainListPopup2" 44 9 2 "physConfig")
 \a cdsLibManager->editDeleteButton->value = t
 \a nrSetWindowVisibility(deleteForm "show")
 \a nrSetCurrentWindow(deleteForm)
@@ -910,18 +750,18 @@
 \o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
 \a nrSetWindowVisibility(mcMBXDLG "show")
 \a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2149 319 300 216))
+\a nrResizeWindow(mcMBXDLG list(2149 319 300 280))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting view "layout" from cell "curr_mirror_dummy" in library "TUTORIAL".
+\o Deleting view "physConfig" from cell "diff_par_dummy" in library "TUTORIAL".
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(deleteForm)
 \a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cellview 'TUTORIAL/curr_mirror_dummy/layout'.
+\o Deleted cellview 'TUTORIAL/diff_par_dummy/physConfig'.
 \o Deletion of 1 view done.
 \a nrSetCurrentWindow(workingDialogForm)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(2225 389 250 129))
+\a nrResizeWindow(workingDialogForm list(2215 379 250 129))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
@@ -938,14 +778,27 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
@@ -964,60 +817,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
-\w LIB TECH_H18A6 from the same file (defined earlier.)
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
-\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
-\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
-\a cdsLibManager->libListBox->value = "TUTORIAL"
-\a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1042,8 +843,36 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB TECH_H18A6 from File /home/saul/projects/LAYOUT_TUT/cds.lib Line 57 redefines
+\w LIB TECH_H18A6 from the same file (defined earlier.)
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A7AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A7AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A5AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A5AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A4AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A4AM'.
+\w Warning: The directory: '/pkg/AMS411/cds/HK_H18/TECH_H18A3AMAM' does not exist
+\w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
+\a cdsLibManager->libListBox->value = "TUTORIAL"
+\a cdsLibManager->libLineEdit->value = "TUTORIAL"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1068,8 +897,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1094,8 +923,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1120,8 +949,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1146,8 +975,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1172,8 +1001,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1198,8 +1027,8 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1224,14 +1053,22 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
@@ -1250,16 +1087,37 @@
 \w 	but was defined in libFile '/home/saul/projects/LAYOUT_TUT/cds.lib' for Lib 'TECH_H18A3AM'.
 \a cdsLibManager->libListBox->value = "TUTORIAL"
 \a cdsLibManager->libLineEdit->value = "TUTORIAL"
-\a cdsLibManager->cellListBox->value = "curr_mirror_dummy"
-\a cdsLibManager->cellLineEdit->value = "curr_mirror_dummy"
+\a cdsLibManager->cellListBox->value = "diff_par_dummy"
+\a cdsLibManager->cellLineEdit->value = "diff_par_dummy"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 1284 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 2364 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 3444 741 627))
+\a nrResizeWindow(cdsLibManager list(1970 204 741 627))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \o libManager is exiting.
 \a exit(0)
-\a basicRenameForm->basicRenameFromEdit->value = "foo"
